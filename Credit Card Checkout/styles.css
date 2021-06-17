@@ -1,0 +1,189 @@
+*
+{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+
+}
+
+
+body,html{
+  height : 100%;
+  margin : 0;
+}
+
+
+.container
+{
+
+  position : relative;
+
+  background: url("images/S1.jpg") top center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+
+  width: 100%;
+  height: 100vh;
+
+  min-height: 380px;
+
+
+}
+
+.credit_card
+{
+  position : absolute;
+
+  width : 425px;
+  height : 275px;
+
+  border-radius: 4%;
+  border: 1px solid;
+  padding: 50px;
+
+  /* positioning */
+  top : 35%;
+  left : 10%;
+
+  background: rgb(1,1,1);
+  background: rgba(1,1,1,0.5);
+}
+
+
+
+.inline
+{
+  display : inline-block;
+}
+
+/* Card no, Exp and CVV class common css */
+.cc_text
+{
+  margin : 2% 0 2% 2%;
+  font-family:  sans-serif;
+}
+
+
+
+/* Exp and CVV class common css */
+.small-textbox
+{
+  width : 5rem;
+  height : 1.5rem;
+  margin : 0 5% 0 5%;
+  border : 0;
+}
+
+.small-textbox:hover
+{
+  background-color: #E1E5EA;
+}
+
+.small-textbox:focus
+{
+  background-color: #E1E5EA;
+  outline: none;
+}
+
+
+/* Div cvv */
+.cvv .cc_text
+{
+  margin-left : 11%;
+}
+
+.cvv
+{
+  position : absolute;
+  top : 55%;
+  right : 15%;
+}
+
+/* Div Expiry Number  */
+
+.exp
+{
+  position : absolute;
+  top : 55%;
+  left : 10%;
+}
+
+.exp .cc_text
+{
+  margin-left : 11%;
+}
+
+
+/* Div Card Number */
+.card_no
+{
+  position : absolute;
+  top : 10%;
+  left : 10%;
+}
+
+.card_no .cc_text
+{
+  margin-left : 5%;
+}
+
+.wide_textbox
+{
+  margin-left : 2%;
+  width : 16rem;
+  height : 1.5rem;
+  border : 0;
+}
+
+.wide_textbox:hover
+{
+  background-color: #E1E5EA;
+}
+
+.wide_textbox:focus
+{
+  background-color: #E1E5EA;
+  outline: none;
+}
+
+/* Pay class */
+
+.pay{
+  position: absolute;
+  bottom : 15%;
+  left : 19%;
+
+  text-align: center;
+
+}
+
+.btn
+{
+  width : 8rem;
+  height : 3rem;
+  border-radius: 5%;
+
+  margin : 5% 0;
+
+  text-align: center;
+
+  font-size: 1.3rem;
+  font-weight: bold;
+
+   background-color: #FAF3F3;
+   border : 0;
+
+}
+
+.btn:hover
+{
+  background-color: #9FE6A0;
+}
+
+.btn:focus
+{
+  background-color: #4AA96C;
+}

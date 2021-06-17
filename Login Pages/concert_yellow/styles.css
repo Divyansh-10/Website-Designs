@@ -5,7 +5,6 @@ body,html{
 
 .bg-img
 {
-
   /* Positioning */
   position: relative;
   background-image: url("images/yellowish.jpg");
@@ -85,6 +84,12 @@ body,html{
 .btn:hover
 {
   opacity: 0.9;
+}
+
+.btn-click
+{
+  opacity : 2;
+  background-color : #9FE6A0;
 }
 
 
